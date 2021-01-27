@@ -1,0 +1,33 @@
+.sidebar {
+  flex: 0.15;
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+
+.sidebar_header>p {
+  font-family: 'TTNorms-Medium';
+  font-size: 18px;
+  color: #0D1C2E;
+  display: flex;
+  cursor: pointer;
+  transition: 150ms color ease-in;
+  margin-top: 10px;
+}
+
+.sidebar_header {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 60px;
+
+}
+
+.sidebar_header>img {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+
+.sidebar_header>p:hover {
+  color: #2A8BF2;
+}

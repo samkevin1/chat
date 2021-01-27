@@ -1,0 +1,36 @@
+.sidebarOption_icon {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  color: #707C97;
+  height: 40px;
+  cursor: pointer;
+  transition: 150ms color ease-in;
+  margin-top: 20px;
+}
+
+.sidebarOption>p {
+  font-family: 'TTNorms-Medium';
+  padding-top: 30px;
+}
+
+.sidebarOption_icon {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.sidebarOption:hover {
+  color: #2A8BF2;
+}
+
+.sidebarOption_clicked {
+  color: #2A8BF2;
+}
+
+.sidebarOption_logout {
+  margin-top: 30px;
+}
